@@ -8,15 +8,15 @@ public class EJERCICIO3 {
 
 	public static void main(String[] args) {
 		
-		double base, total, iva, ivaT;
+		double base, total, ivaporc, ivaT;
 		
 		System.out.print("Introduzca la cantidad base: ");                                          
         base = keyboard.nextDouble();
 
         System.out.print("Introduzca %IVA: ");
-        iva = keyboard.nextDouble();
+        ivaporc = keyboard.nextDouble();
 
-        ivaT = base * iva / 100;
+        ivaT = base * ivaporc / 100;
         
         total = base+ivaT;
 
