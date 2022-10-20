@@ -16,8 +16,6 @@ public class EJERCICIO13 {
 		    for (i = 0; i < 8; i++) {
 		      numero[i] = keyboard.nextInt();
 		    }
-
-		    System.out.println();
 		    
 		    for (i = 0; i < 8; i++) {
 		      if (numero[i] % 2 == 0) {
