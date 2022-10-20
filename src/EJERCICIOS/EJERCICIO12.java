@@ -8,11 +8,10 @@ public class EJERCICIO12 {
 
 	public static void main(String[] args) {
 		
-		int[] n = new int[10];
+            int[] n = new int[10];
 	    int i;
 	    
-	    System.out.println("Introduzca 10 números enteros.");
-
+	    System.out.println("Introduzca 10 números enteros:");
 	    for (i = 0; i < 10; i++) {
 	      n[i] = keyboard.nextInt();
 	    }
