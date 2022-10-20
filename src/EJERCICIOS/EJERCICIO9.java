@@ -10,7 +10,7 @@ public class EJERCICIO9 {
 		
 		int numeros = 0;
 		int negativos = 0;
-	    int positivos = 0;
+	        int positivos = 0;
 	    
 	    System.out.println("Introduzca 10 números enteros: ");	    
 	    for (int i = 0; i < 10; i++) {
