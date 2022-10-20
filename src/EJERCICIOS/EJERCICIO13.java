@@ -11,7 +11,7 @@ public class EJERCICIO13 {
 		 int[] numero = new int[8];
 		    int i;
 		    
-		    System.out.println("Introduzca 8 números enteros, pulse INTRO después de cada número:");
+		    System.out.println("Introduzca 8 números enteros: ");
 
 		    for (i = 0; i < 8; i++) {
 		      numero[i] = keyboard.nextInt();
